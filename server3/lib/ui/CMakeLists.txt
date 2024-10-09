@@ -1,0 +1,26 @@
+SET(SOURCES screens/ui_gmeter.c
+    screens/ui_attitude_indicator.c
+    screens/ui_watch.c
+    screens/ui_aoa.c
+    screens/ui_setup.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    images/ui_img_gmeterbackground_png.c
+    images/ui_img_gpointer_png.c
+    images/ui_img_978830312.c
+    images/ui_img_attitude_foreground_1_png.c
+    images/ui_img_watchface_png.c
+    images/ui_img_clockwise_hour_png.c
+    images/ui_img_clockwise_min_png.c
+    images/ui_img_clockwise_sec_png.c
+    images/ui_img_aoa_background_png.c
+    images/ui_img_negativeindexer_png.c
+    images/ui_img_lowersemicircle_png.c
+    images/ui_img_uppersemicircle_png.c
+    images/ui_img_yellowchevron_png.c
+    images/ui_img_redchevron_png.c
+    images/ui_img_green_triangle_png.c)
+
+add_library(ui ${SOURCES})
